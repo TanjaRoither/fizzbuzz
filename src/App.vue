@@ -1,7 +1,11 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import FizzBuzz from "./components/FizzBuzz.vue";
+</script>
 
 <template>
-  <main></main>
+  <main>
+    <FizzBuzz />
+  </main>
 </template>
 
 <style></style>
